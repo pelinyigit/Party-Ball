@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8682347186014938497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8682347186014938496}
+  - component: {fileID: 8682347186014938511}
+  m_Layer: 0
+  m_Name: Level Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8682347186014938496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8682347186014938497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.40595767, y: 19.103127, z: -23.000988}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8682347186014938511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8682347186014938497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bf8b739dc53cc46adaf924bc2f23fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 1
+  levels:
+  - {fileID: 11400000, guid: 1e17c53fee903364187143b67efc5d5f, type: 2}
+  - {fileID: 11400000, guid: c8b797585b82f7d4f9fd95a5e1b7ec03, type: 2}
+  - {fileID: 11400000, guid: 4fbc21a537cabb84387191666c002c4b, type: 2}
+  - {fileID: 11400000, guid: 9eab657e8443fba498e9dabb44da2e71, type: 2}
+  - {fileID: 11400000, guid: e6eb1f360ec812641828a0495252d088, type: 2}
+  - {fileID: 11400000, guid: d3e2bf258a3fdc749b70adb99434d390, type: 2}
+  - {fileID: 11400000, guid: 31248e41bedc16d46a3af0984302a42a, type: 2}
+  - {fileID: 11400000, guid: 113a8103bfed57445a072e9d1596ab47, type: 2}
+  - {fileID: 11400000, guid: 30ba3c6e4f2299a4585183093e37e462, type: 2}
+  - {fileID: 11400000, guid: fcf7e0658ff151841bdcc72479543c11, type: 2}
+  currentLevelIndex: 0
+  currentLevelData: {fileID: 0}
+  aICharacters: []
+  player: {fileID: 0}

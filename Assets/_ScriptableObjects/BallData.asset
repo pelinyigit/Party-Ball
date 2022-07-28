@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5c0371aecf545418335a449c53a32b, type: 3}
+  m_Name: BallData
+  m_EditorClassIdentifier: 
+  balls:
+  - prefab: {fileID: 4418824368726576474, guid: 3a1bda4e33bf02143a735a3c3eab4df8, type: 3}
+    ballValue: 2
+    normalMaterial: {fileID: 2100000, guid: df80ee288b5b2dd40bd16a921bef7dfd, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 0f79acebe7b51f44f9f04635d05dcba3, type: 2}
+  - prefab: {fileID: 2354338109814939938, guid: 789c0dcf9e8b9b94abb594db6749f22c, type: 3}
+    ballValue: 4
+    normalMaterial: {fileID: 2100000, guid: 1236d755b0c6d4c4eb29f35a29453443, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 76bb4215b9dedf8438123ca01e139969, type: 2}
+  - prefab: {fileID: 5518760492403737313, guid: c46833950a784f14eaef3bb261445d73, type: 3}
+    ballValue: 8
+    normalMaterial: {fileID: 2100000, guid: f877af66621201c46847a751181c92b3, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 30872e34d76342148ae0b233e76bb007, type: 2}
+  - prefab: {fileID: 2899603765725452846, guid: f32f7074b55a2c848840b496e955e995, type: 3}
+    ballValue: 16
+    normalMaterial: {fileID: 2100000, guid: 64809dc242684094b8460cb3be083000, type: 2}
+    greenMaterial: {fileID: 2100000, guid: e4aa0539e76a8fe489dfe6b5175d0e71, type: 2}
+  - prefab: {fileID: 4545337142049050328, guid: ec50ac5560c8b504393471b6d4267d39, type: 3}
+    ballValue: 32
+    normalMaterial: {fileID: 2100000, guid: c5304eb20ab165c418c6b320dd5b1d32, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 4c22b10df60022c4fb0f53f97f085d86, type: 2}
+  - prefab: {fileID: 2483477774644281234, guid: b3fc5ff41d7f769488503b557d4812ed, type: 3}
+    ballValue: 64
+    normalMaterial: {fileID: 2100000, guid: f0bf82cba0ca9124689d879316ebd13b, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 34e96cfc46d94534495d539fac543932, type: 2}
+  - prefab: {fileID: 8160280818312109254, guid: 95b2446521c008f44aee00ae2c7d595d, type: 3}
+    ballValue: 128
+    normalMaterial: {fileID: 2100000, guid: b626394e5a3d7414eb87b178b7977f3d, type: 2}
+    greenMaterial: {fileID: 2100000, guid: e37c45e91b00c244eac3245128257fda, type: 2}
+  - prefab: {fileID: 1408714287521930467, guid: a272350546b69044ea828662d480bca2, type: 3}
+    ballValue: 256
+    normalMaterial: {fileID: 2100000, guid: 3325d8c4f68cc654a8dfab462ef54b83, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 0f2ffc6df060b38479e5f654fedf935a, type: 2}
+  - prefab: {fileID: 2045162405850286280, guid: e40b2354a76599f499bff27cab55186e, type: 3}
+    ballValue: 512
+    normalMaterial: {fileID: 2100000, guid: 02d9d8f263889304cb342c820dc60e31, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 40a14245d8001e4428907aeeac8878ac, type: 2}
+  - prefab: {fileID: 7168583584701965891, guid: 4ba2b63643a3bf7428d947c8038f848c, type: 3}
+    ballValue: 1024
+    normalMaterial: {fileID: 2100000, guid: 96e7194daf4aacb44b3fe91aa76e92a4, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 3313a01737771504299753d37dcf5f50, type: 2}
+  - prefab: {fileID: 1977896911043623839, guid: 77353d038b715db4380313fbd42942b7, type: 3}
+    ballValue: 2048
+    normalMaterial: {fileID: 2100000, guid: 57d2680b3730dc249861775d02057b13, type: 2}
+    greenMaterial: {fileID: 2100000, guid: 4211204f68e13ae4397c53ace251639b, type: 2}
